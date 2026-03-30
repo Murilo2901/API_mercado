@@ -1,7 +1,7 @@
 package com.mercado.API.Service;
 
 import com.mercado.API.DAO.ProdutoDAO;
-import com.mercado.API.Domain.Produto;
+import com.mercado.API.Model.Produto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

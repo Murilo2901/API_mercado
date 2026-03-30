@@ -2,8 +2,8 @@ package com.mercado.API.Service;
 
 import com.mercado.API.DAO.ProdutoDAO;
 import com.mercado.API.DAO.VendaDAO;
-import com.mercado.API.Domain.Produto;
-import com.mercado.API.Domain.Venda;
+import com.mercado.API.Model.Produto;
+import com.mercado.API.Model.Venda;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

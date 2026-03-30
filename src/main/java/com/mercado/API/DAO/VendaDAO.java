@@ -1,6 +1,10 @@
 package com.mercado.API.DAO;
 
+import com.mercado.API.Model.Venda;
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.mercado.API.model.Venda;
+
+import java.util.List;
+
 public interface VendaDAO extends JpaRepository<Venda, Long> {
+    List<Venda> findByUsuarioId(Long usuarioId);
 }

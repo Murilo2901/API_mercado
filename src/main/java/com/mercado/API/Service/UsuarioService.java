@@ -1,7 +1,7 @@
 package com.mercado.API.Service;
 
 import com.mercado.API.DAO.UsuarioDAO;
-import com.mercado.API.Domain.Usuario;
+import com.mercado.API.Model.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;

@@ -1,7 +1,7 @@
 package com.mercado.API.Controller;
 
 
-import com.mercado.API.Domain.Produto;
+import com.mercado.API.Model.Produto;
 import com.mercado.API.Service.ProdutoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

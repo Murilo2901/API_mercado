@@ -1,4 +1,4 @@
-package com.mercado.API.Domain;
+package com.mercado.API.Model;
 
 import jakarta.persistence.*;
 
@@ -20,6 +20,9 @@ public class Usuario {
         this.email = email;
         this.senha = senha;
         this.perfil = perfil;
+    }
+
+    public Usuario() {
     }
 
     public Long getId() {
