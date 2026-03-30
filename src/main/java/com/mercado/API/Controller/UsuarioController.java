@@ -1,6 +1,6 @@
 package com.mercado.API.Controller;
 
-import com.mercado.API.Domain.Usuario;
+import com.mercado.API.Model.Usuario;
 import com.mercado.API.Service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
