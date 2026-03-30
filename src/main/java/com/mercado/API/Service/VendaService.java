@@ -1,7 +1,7 @@
 package com.mercado.API.Service;
 
-import com.mercado.API.DAO.ProdutoDAO;
-import com.mercado.API.DAO.VendaDAO;
+import com.mercado.API.Repository.ProdutoRepository;
+import com.mercado.API.Repository.VendaRepository;
 import com.mercado.API.Model.Produto;
 import com.mercado.API.Model.Venda;
 import jakarta.transaction.Transactional;
@@ -13,8 +13,8 @@ import java.util.List;
 
 @Service
 public class VendaService {
-    @Autowired private VendaDAO vendaDAO;
-    @Autowired private ProdutoDAO produtoDAO;
+    @Autowired private VendaRepository vendaDAO;
+    @Autowired private ProdutoRepository produtoDAO;
 
     @Transactional
     public Venda registrarVenda(Venda venda){

@@ -1,6 +1,6 @@
 package com.mercado.API.Service;
 
-import com.mercado.API.DAO.ProdutoDAO;
+import com.mercado.API.Repository.ProdutoRepository;
 import com.mercado.API.Model.Produto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class ProdutoService {
     @Autowired
-    private ProdutoDAO produtoDAO;
+    private ProdutoRepository produtoDAO;
 
     public Produto salvar(Produto produto){
         return produtoDAO.save(produto);
