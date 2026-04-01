@@ -29,7 +29,7 @@ public class UsuarioService {
         u.setNome(dto.getNome());
         u.setEmail(dto.getEmail());
         u.setUsuario(normalizeUsuario(dto.getUsuario()));
-        u.setSenha(dto.getSenha()); // senha salva diretamente
+        u.setSenha(dto.getSenha());
         u.setPerfil(dto.getPerfil() != null ? dto.getPerfil() : "CLIENTE");
 
         return toDTO(repository.save(u));

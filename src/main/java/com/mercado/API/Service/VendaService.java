@@ -1,11 +1,10 @@
 package com.mercado.API.Service;
 
+import com.mercado.API.DTO.VendaDTO.VendaItemDTO;
 import com.mercado.API.DTO.VendaDTO.VendaRequestDTO;
 import com.mercado.API.DTO.VendaDTO.VendaResponseDTO;
 import com.mercado.API.Model.*;
-import com.mercado.API.Repository.ProdutoRepository;
-import com.mercado.API.Repository.UsuarioRepository;
-import com.mercado.API.Repository.VendaRepository;
+import com.mercado.API.Repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
