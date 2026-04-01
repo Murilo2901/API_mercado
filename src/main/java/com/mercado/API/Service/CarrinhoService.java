@@ -9,6 +9,8 @@ import com.mercado.API.Repository.ProdutoRepository;
 import com.mercado.API.Repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
