@@ -1,6 +1,9 @@
-Sistema Mercado Dany
+API-Mecado | Sistema Mercado Dany
 
-
+Integrantes:
+- Catarina Klein
+- Lucas Schlei
+- Murilo Kerschbaum
 
 Sobre o Projeto:
 
@@ -146,6 +149,6 @@ simulando um ambiente real de desenvolvimento.
 
 Além de atender aos requisitos funcionais, o projeto também reforça conceitos importantes como:
 
-Arquitetura em camadas
-Desenvolvimento de APIs REST
-Versionamento com Git
+* Arquitetura em camadas
+* Desenvolvimento de APIs REST
+* Versionamento com Git
